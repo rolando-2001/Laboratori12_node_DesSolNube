@@ -5,7 +5,7 @@ function Home() {
   const [archivo, setArchivo] = useState(null);
   const [avatar, setAvatar] = useState("/imagenes/avatar.jpg");
 
-  const url = "http://localhost:3000/subida";
+  const url = "http://44.202.247.206:3000/subida";
 
   function controlCambioImagen(event) {
     const archivoSubido = event.target.files[0]; // imagen
